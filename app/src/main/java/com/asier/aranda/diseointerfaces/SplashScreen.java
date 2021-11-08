@@ -12,6 +12,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
 
+/**
+ * @author Mario
+ */
 public class SplashScreen extends AppCompatActivity {
 
     @Override
