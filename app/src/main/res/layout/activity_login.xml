@@ -4,19 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient"
     tools:context=".LoginActivity">
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:alpha="0.5"
-        android:background="@drawable/gradient">
 
-    </View>
     <ImageView
-        android:id="@+id/girl"
+        android:id="@+id/backAcantilado"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitStart" />
@@ -76,10 +68,9 @@
         android:id="@+id/login"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/button_custom"
         android:onClick="onClick"
         android:text="Login"
-        android:textColor="@color/purple_500"
+        style="@style/myButtonInverse"
         app:layout_constraintBottom_toTopOf="@+id/registro"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
@@ -88,39 +79,23 @@
 
     <Button
         android:id="@+id/registro"
-        style="@style/myButtonInverse"
+        style="@style/myButton"
         android:onClick="openSignUp"
         android:text="Registro"
-        android:layout_marginBottom="6dp"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/login"
-        tools:ignore="TextContrastCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/login" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="120dp"
         android:layout_height="120dp"
-
+        android:src="@drawable/beach_logo_color"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/guideline5"
-        app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+        app:layout_constraintTop_toBottomOf="@+id/guideline5" />
 
     <!--  VERTICAL LINES-->
-
-
-    <ImageView
-        android:id="@+id/bolt1"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginBottom="160dp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline6"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/registro"
-        app:srcCompat="@drawable/icon_bolt" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"

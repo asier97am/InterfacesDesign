@@ -21,9 +21,9 @@ public class SplashScreen extends AppCompatActivity {
         openApp(true);
 
         //implementar animacion
-        ImageView mBolt = (ImageView) findViewById(R.id.beach);
+        ImageView mSea = (ImageView) findViewById(R.id.beach);
         Animation myanim = AnimationUtils.loadAnimation(this, R.anim.fadein);
-        mBolt.startAnimation(myanim);
+        mSea.startAnimation(myanim);
 
         ImageView mback =findViewById(R.id.backView);
         Glide.with(this)

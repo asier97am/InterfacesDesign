@@ -3,6 +3,8 @@ package com.asier.aranda.diseointerfaces;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,13 +25,14 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        ImageView mGirl=findViewById(R.id.girl);
-
+        ImageView mAcantilado=findViewById(R.id.backAcantilado);
         Glide.with(this)
-                .load(R.drawable.girl)
+                .load(R.drawable.acantilado)
                 .transition(DrawableTransitionOptions.withCrossFade(2000))
+                .into(mAcantilado);
 
-                .into(mGirl);
+
+
 
 
     }
