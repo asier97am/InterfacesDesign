@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.item1:
                 Toast toast = Toast.makeText(this, "Item Copied", Toast.LENGTH_LONG);
                 toast.show();
-                return true;
+                return true ;
 
             case R.id.item2:
                 Toast toast2 = Toast.makeText(this, "Downloading", Toast.LENGTH_LONG);
