@@ -7,11 +7,12 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textVieww"
+        android:id="@+id/textTap"
         android:layout_width="353dp"
         android:layout_height="64dp"
-        android:backgroundTint="@color/black"
-        android:text="ESTAS EN EL MAIN"
+        android:gravity="center"
+        android:textColor="@color/fucsia"
+        android:text="tap me long..."
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
