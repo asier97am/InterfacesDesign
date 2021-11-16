@@ -13,4 +13,5 @@
     <color name="bolt2">#2C3540</color>
     <color name="bolt3">#F2B035</color>
     <color name="bolt4">#F2845C</color>
+    <color name="transparent">#00FFFFFF</color>
 </resources>
