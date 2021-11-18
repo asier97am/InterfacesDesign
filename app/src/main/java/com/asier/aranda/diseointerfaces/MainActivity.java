@@ -7,16 +7,23 @@ import android.view.MenuItem;
 import android.view.Menu;
 import android.view.ContextMenu;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.AdapterView;
 
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
+
+    private SwipeRefreshLayout swipeLayout;
+    private WebView miVisorWeb;
+    private TextView refrescar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,14 +31,39 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // casting a la vista a la que aplicamos un menu contextual
-        // y la registramos
-        TextView mycontext = (TextView) findViewById(R.id.textTap);
-        registerForContextMenu(mycontext);
-    }
+//        // y la registramos
+//        TextView mycontext = (TextView) findViewById(R.id.textTap);
+//        registerForContextMenu(mycontext);
 
-    @Override
-    public void onCreateContextMenu(ContextMenu menu, View v,
-                                    ContextMenu.ContextMenuInfo menuInfo) {
+        WebView mycontext = (WebView) findViewById(R.id.vistaweb);
+        registerForContextMenu(mycontext);
+
+        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.myswipe);
+        swipeLayout.setOnRefreshListener(mOnRefreshListener);
+
+
+        miVisorWeb=(WebView) findViewById(R.id.vistaweb);
+        miVisorWeb.getSettings().setBuiltInZoomControls(true);
+        miVisorWeb.loadUrl("https://thispersondoesnotexist.com");
+
+
+
+    }
+//refrescar
+    protected SwipeRefreshLayout.OnRefreshListener
+            mOnRefreshListener=new SwipeRefreshLayout.OnRefreshListener() {
+        @Override
+        public void onRefresh() {
+            Toast toast0= Toast.makeText(MainActivity.this,"hi there! I don't exist :)", Toast.LENGTH_LONG);
+            toast0.show();
+
+            miVisorWeb.reload();
+            swipeLayout.setRefreshing(false);
+        }
+    };
+
+
+    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         getMenuInflater().inflate(R.menu.menu_context, menu);
     }
 
