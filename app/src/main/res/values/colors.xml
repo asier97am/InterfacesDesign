@@ -13,5 +13,13 @@
     <color name="bolt2">#2C3540</color>
     <color name="bolt3">#F2B035</color>
     <color name="bolt4">#F2845C</color>
-    <color name="transparent">#00FFFFFF</color>
+
+    <color name="palmeraTronco">#BF5E3B</color>
+    <color name="palmeraHoja">#CCF279</color>
+    <color name="palmeraHojaOscura">#A9D941</color>
+    <color name="arenaOscura">#F2C791</color>
+    <color name="arenaClara">#FEE7C9</color>
+    <color name="mar">#8DCAFC</color>
+
+
 </resources>

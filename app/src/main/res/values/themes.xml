@@ -10,7 +10,7 @@
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">@color/bolt3</item>
+        <item name="android:statusBarColor">@color/arenaOscura</item>
         <!-- Customize your theme here. -->
     </style>
     <style name="NoActionTheme" parent="Theme.AppCompat.DayNight">
@@ -19,8 +19,8 @@
 
     <style name="ActionTheme" parent="Theme.MaterialComponents.DayNight">
 
-        <item name="android:statusBarColor">@color/bolt3</item>
-        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:statusBarColor">@color/arenaOscura</item>
+        <item name="android:textColorPrimary">@color/palmeraTronco</item>
 
         <item name="actionBarStyle">@style/MyActionBar</item>
 
@@ -28,7 +28,7 @@
 
     </style>
     <style name="MyActionBar" parent="Widget.MaterialComponents.Light.ActionBar.Solid" >
-        <item name="background">@color/bolt</item>
+        <item name="background">@color/arenaClara</item>
 
 
     </style>
