@@ -17,7 +17,16 @@
     </style>
 
 
+    <style name="tituloapp">
+<!--     El color de la sombra-->
+        <item name="android:shadowColor">#000000</item>
+<!--     El radio o expansión que queremos-->
+        <item name="android:shadowRadius">10</item>
+<!--     El desplazamiento horizontal-->
+        <item name="android:shadowDx">2</item>
+<!--     El desplazamiento vertical-->
+        <item name="android:shadowDy">5</item>
 
-
+    </style>
 
 </resources>
