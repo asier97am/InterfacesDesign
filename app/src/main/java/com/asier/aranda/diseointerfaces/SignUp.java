@@ -15,10 +15,11 @@ public class SignUp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
 
-        ImageView mAcantilado=findViewById(R.id.backAcantilado1);
+        ImageView mBeach=findViewById(R.id.backBeach);
         Glide.with(this)
-                .load(R.drawable.acantilado)
+                .load(R.drawable.beach)
+                .centerCrop()
                 .transition(DrawableTransitionOptions.withCrossFade(2000))
-                .into(mAcantilado);
+                .into(mBeach);
     }
 }

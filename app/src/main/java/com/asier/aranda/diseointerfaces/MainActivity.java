@@ -1,5 +1,7 @@
 package com.asier.aranda.diseointerfaces;
 
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.ContextMenu;
 
@@ -11,12 +13,14 @@ import android.webkit.WebView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.AdapterView;
+import androidx.appcompat.app.AlertDialog;
 
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
@@ -124,10 +128,36 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.user) {
             Toast toast = Toast.makeText(this, "Accediendo a usuario", Toast.LENGTH_LONG);
             toast.show();
+            showAlertDialogButtonClicked(MainActivity.this);
         }
         return super.onOptionsItemSelected(item);
     }
 
+    public void showAlertDialogButtonClicked(MainActivity mainActivity){
+        MaterialAlertDialogBuilder builder=new MaterialAlertDialogBuilder(this);
+        builder.setTitle("Achtung!");
+        builder.setMessage("where do you go?");
+        builder.setIcon(R.drawable.ic_login);
+        builder.setCancelable(false);
+
+        builder.setPositiveButton("SignUp", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Intent intent = new Intent(MainActivity.this,SignUp.class);
+                startActivity(intent);
+                dialog.dismiss();
+            }
+        });
+
+        builder.setNeutralButton("other", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+        AlertDialog dialog=builder.create();
+        dialog.show();;
+    }
 }
 
 

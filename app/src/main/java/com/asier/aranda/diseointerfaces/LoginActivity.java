@@ -25,24 +25,21 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        ImageView mAcantilado=findViewById(R.id.backAcantilado);
+        ImageView mBeach=findViewById(R.id.backBeach);
         Glide.with(this)
-                .load(R.drawable.acantilado)
+                .load(R.drawable.beach)
+                .centerCrop()
                 .transition(DrawableTransitionOptions.withCrossFade(2000))
-                .into(mAcantilado);
-
-
-
-
+                .into(mBeach);
 
     }
-    public void onClick(View v){
+    public void openMainActivity(View v){
         Intent intent=new Intent(LoginActivity.this, MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
     }
-    public void openSignUp(View v){
+    public void openRegistro(View v){
         Intent intent=new Intent(LoginActivity.this, SignUp.class);
         startActivity(intent);
     }
