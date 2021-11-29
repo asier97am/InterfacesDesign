@@ -15,7 +15,7 @@ public class SignUp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
 
-        ImageView mBeach=findViewById(R.id.backBeach);
+        ImageView mBeach=findViewById(R.id.backBeach1);
         Glide.with(this)
                 .load(R.drawable.beach)
                 .centerCrop()
