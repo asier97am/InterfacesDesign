@@ -32,12 +32,8 @@ public class LoginActivity extends AppCompatActivity {
                 .transition(DrawableTransitionOptions.withCrossFade(2000))
                 .into(mBeach);
 
-
-
-
-
     }
-    public void openMain(View v){
+    public void openMainActivity(View v){
         Intent intent=new Intent(LoginActivity.this, MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);

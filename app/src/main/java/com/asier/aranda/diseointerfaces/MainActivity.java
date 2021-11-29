@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    //refrescar
+//refrescar
     protected SwipeRefreshLayout.OnRefreshListener
             mOnRefreshListener=new SwipeRefreshLayout.OnRefreshListener() {
         @Override
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
                 return super.onContextItemSelected(item);
         }
     }
-    //    appbar
+//    appbar
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -159,3 +159,5 @@ public class MainActivity extends AppCompatActivity {
         dialog.show();;
     }
 }
+
+
