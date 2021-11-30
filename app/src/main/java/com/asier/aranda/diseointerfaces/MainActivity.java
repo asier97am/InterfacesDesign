@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        builder.setNeutralButton("other", new DialogInterface.OnClickListener() {
+        builder.setNeutralButton("skip", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.dismiss();
