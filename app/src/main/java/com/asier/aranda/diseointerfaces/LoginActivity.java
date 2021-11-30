@@ -27,7 +27,7 @@ public class LoginActivity extends AppCompatActivity {
 
         ImageView mBeach=findViewById(R.id.backBeach);
         Glide.with(this)
-                .load(R.drawable.beach)
+                .load(R.drawable.oleajevistaaerea)
                 .centerCrop()
                 .transition(DrawableTransitionOptions.withCrossFade(2000))
                 .into(mBeach);

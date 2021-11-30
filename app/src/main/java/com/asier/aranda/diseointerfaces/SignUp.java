@@ -17,7 +17,7 @@ public class SignUp extends AppCompatActivity {
 
         ImageView mBeach=findViewById(R.id.backBeach1);
         Glide.with(this)
-                .load(R.drawable.beach)
+                .load(R.drawable.oleajevistaaerea)
                 .centerCrop()
                 .transition(DrawableTransitionOptions.withCrossFade(2000))
                 .into(mBeach);

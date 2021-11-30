@@ -3,7 +3,7 @@
     <style name="Theme.DiseñoInterfaces" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <!-- Color del hint de los textVieww. -->
-        <item name="colorPrimary">@color/marclaro2</item>
+        <item name="colorPrimary">@color/oceano2</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
@@ -11,7 +11,7 @@
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">@color/arenaClara</item>
+        <item name="android:statusBarColor">@color/oceano2</item>
         <!-- Customize your theme here. -->
     </style>
     <style name="NoActionTheme" parent="Theme.AppCompat.DayNight">
@@ -20,12 +20,12 @@
 
     <style name="ActionTheme" parent="Theme.MaterialComponents.DayNight">
 
-        <item name="android:statusBarColor">@color/sunset</item>
+        <item name="android:statusBarColor">@color/oceano2</item>
 
         <!-- Color de dentro de los textVieww (letra que escribimos). -->
-        <item name="android:textColorPrimary">@color/palmeraTronco</item>
+        <item name="android:textColorPrimary">@color/oceano1</item>
         <!-- Color del hint de los textVieww. -->
-        <item name="colorPrimary">@color/marclaro2</item>
+        <item name="colorPrimary">@color/oceano2</item>
 
         <item name="actionBarStyle">@style/MyActionBar</item>
 
@@ -33,7 +33,7 @@
 
     </style>
     <style name="MyActionBar" parent="Widget.MaterialComponents.Light.ActionBar.Solid" >
-        <item name="background">@color/arenaOscura</item>
+        <item name="background">@color/oceano3</item>
 
 
     </style>
