@@ -4,7 +4,7 @@
     <style name="myButtonRegistro">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:backgroundTint">@color/palmeraHojaOscura</item>
+        <item name="android:backgroundTint">@color/oceano4</item>
         <item name="android:textColor">@color/white</item>
     </style>
 
@@ -12,7 +12,7 @@
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">5dp</item>
-        <item name="android:backgroundTint">@color/mar</item>
+        <item name="android:backgroundTint">@color/oceano2</item>
         <item name="android:textColor">@color/white</item>
     </style>
 

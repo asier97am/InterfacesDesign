@@ -3,7 +3,7 @@
     <style name="Theme.DiseñoInterfaces" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <!-- Color del hint de los textVieww. -->
-        <item name="colorPrimary">@color/mar</item>
+        <item name="colorPrimary">@color/marclaro2</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
@@ -20,12 +20,12 @@
 
     <style name="ActionTheme" parent="Theme.MaterialComponents.DayNight">
 
-        <item name="android:statusBarColor">@color/arenaClara</item>
+        <item name="android:statusBarColor">@color/sunset</item>
 
         <!-- Color de dentro de los textVieww (letra que escribimos). -->
         <item name="android:textColorPrimary">@color/palmeraTronco</item>
         <!-- Color del hint de los textVieww. -->
-        <item name="colorPrimary">@color/mar</item>
+        <item name="colorPrimary">@color/marclaro2</item>
 
         <item name="actionBarStyle">@style/MyActionBar</item>
 

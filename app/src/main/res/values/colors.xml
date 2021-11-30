@@ -21,5 +21,11 @@
     <color name="arenaClara">#FEE7C9</color>
     <color name="mar">#8DCAFC</color>
 
+    <color name="oceano1">#C1D2D9</color>
+    <color name="oceano2">#7297A6</color>
+    <color name="oceano3">#366873</color>
+    <color name="oceano4">#0D3640</color>
+    <color name="sunset">#F2E2DC</color>
+
 
 </resources>
