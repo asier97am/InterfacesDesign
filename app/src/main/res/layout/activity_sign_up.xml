@@ -29,6 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Username"
+            android:textColor="@color/oceano4"
             android:maxLines="1"
             tools:ignore="SpeakableTextPresentCheck" />
 
@@ -52,6 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
+            android:textColor="@color/oceano4"
             android:inputType="textPassword"
             android:maxLines="1"
             tools:ignore="SpeakableTextPresentCheck"/>
@@ -74,6 +76,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Phone"
+            android:textColor="@color/oceano4"
             android:inputType="number"
             android:maxLines="1"
             tools:ignore="SpeakableTextPresentCheck" />
@@ -96,6 +99,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
+            android:textColor="@color/oceano4"
             android:inputType="textEmailAddress"
             android:maxLines="1"
             tools:ignore="SpeakableTextPresentCheck" />

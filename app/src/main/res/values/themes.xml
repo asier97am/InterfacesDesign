@@ -22,7 +22,7 @@
 
         <item name="android:statusBarColor">@color/oceano2</item>
 
-        <!-- Color de dentro de los textVieww (letra que escribimos). -->
+        <!-- Color de dentro de los textVieww (letra que escribimos) y el titulo de la app. -->
         <item name="android:textColorPrimary">@color/oceano1</item>
         <!-- Color del hint de los textVieww. -->
         <item name="colorPrimary">@color/oceano2</item>

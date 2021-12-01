@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SplashScreen">
-
+<!--fondo-->
     <ImageView
         android:id="@+id/backView"
         android:layout_width="match_parent"
@@ -13,7 +13,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
     </ImageView>
-
+<!--logo-->
     <ImageView
         android:id="@+id/beach"
         android:layout_width="150dp"

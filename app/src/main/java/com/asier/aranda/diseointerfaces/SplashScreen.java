@@ -7,10 +7,14 @@ import android.os.Looper;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.view.animation.TranslateAnimation;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
+
+import org.w3c.dom.Text;
 
 public class SplashScreen extends AppCompatActivity {
 
@@ -31,17 +35,30 @@ public class SplashScreen extends AppCompatActivity {
                 .centerCrop()
                 .into(mback);
 
+        TextView shake = findViewById(R.id.Titulo);
+        Animation shake1 = AnimationUtils.loadAnimation(this, R.anim.titleanimation);
+        shake.startAnimation(shake1);
+
+
+//        //animacion titulo app llegar desde abajo
+        TextView Titulo = findViewById(R.id.designer);
+        TranslateAnimation an = new TranslateAnimation(00.0f, 0.0f, 1600.0f, 0.0f);
+        an.setDuration(1000);
+        Titulo.startAnimation(an);
+
     }
     private void openApp(boolean locationPermission) {
-
+//cambia de activity pasados 2000 milis
         new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
             @Override
             public void run() {
                 Intent intent = new Intent(SplashScreen.this, com.asier.aranda.diseointerfaces.LoginActivity.class);
                 startActivity(intent);
             }
-        }, 2000);
+        }, 3000);
     }
+
+
 }
 
 /*public void pulsarLogo(View view){
