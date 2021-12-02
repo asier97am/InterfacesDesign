@@ -11,10 +11,9 @@
 ![issue tab](img/1_.gif)
 
 * Como se puede observar en la siguiente imagen, he diseñado mi App basandose en una paleta de colores basandose en el background como muestro a continuación.
-<img src="img/paletacoloresfondomar.png" width="400" height="300"/>
-<img src="img/1_1_titulo.png" width="400"/>
 
-
+![issue tab](img/paletacoloresfondomar.png)
+![issue tab](img/1_1_titulo.png)
 
 
 * Para el titulo de mi aplicación he usado una sombra para resaltar dicho titulo con una fuente Bromello y coloreando el titulo basandome también en la paleta de colores.
@@ -28,6 +27,15 @@
 * El fondo de este Activity es distinto al del *SplashScreen* pero tienen colores similares para tener una armonia.
 * Ambos botones al pulsarse llevarán a otro activity.
 
-![issue tab](img/2_Login.png)
 ![issue tab](img/2_1_Explicarcolores.png)
+
+* Hacemos click en login e interactuamos con los iconos de la activity "Main".
+
+![issue tab](img/2_dentrodeloginlopciones.gif)
+
+* Después de ver los mensajes emergentes de cada icono vamos a darle al icono de "USER".
+* Nos desplegará un menú en el cual podremos interactuar.
+
+![issue tab](img/2_1_dandoauser.gif)
+
 
