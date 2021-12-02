@@ -51,5 +51,5 @@
 
 ![issue tab](img/3_saliendoapp.gif)
 
-<img src="img/3_saliendoapp.gif" width="300" height="500"/>
+<img src="img/3_saliendoapp.gif" width="200" height="800"/>
 
