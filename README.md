@@ -8,7 +8,8 @@
   * Título: tiene un pequeño shake lateral como si la ola le golpease.
   * Nombre Desarrollador: aparece desde abajo para que quede en segundo plano a primera vista al abrir la App.
 
-![issue tab](img/1_.gif)
+
+<img src="img/1_.gif" width="430" height="880"/>
 
 * Como se puede observar en la siguiente imagen, he diseñado mi App basandose en una paleta de colores basandose en el background como muestro a continuación.
 
@@ -33,12 +34,12 @@
 ## 3.Main
 * Hacemos click en login e interactuamos con los iconos de la activity "Main".
 
-![issue tab](img/2_dentrodeloginlopciones.gif)
+<img src="img/2_dentrodeloginlopciones.gif" width="430" height="880"/>
 
 * Después de ver los mensajes emergentes de cada icono vamos a darle al icono de "USER".
 * Nos desplegará un menú en el cual podremos interactuar.
 
-![issue tab](img/2_1_dandoauser.gif)
+<img src="img/2_1_dandoauser.gif" width="430" height="880"/>
 
 ## 4.Registro
 * Al haber dado a "SignUp" como se ve en el Gif te redirecciona a mi activity "SignUp".
@@ -48,8 +49,6 @@
 ![issue tab](img/3_explicacioncolores.png)
 
 * Y aquí vemos como salir de la App
-
-![issue tab](img/3_saliendoapp.gif)
 
 <img src="img/3_saliendoapp.gif" width="430" height="880"/>
 
