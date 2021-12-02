@@ -11,9 +11,11 @@
 ![issue tab](img/1_.gif)
 
 * Como se puede observar en la siguiente imagen, he diseñado mi App basandose en una paleta de colores basandose en el background como muestro a continuación.
+<img src="img/paletacoloresfondomar.png" width="400" height="300"/>
+<img src="img/1_1_titulo.png" width="400"/>
 
-![issue tab](img/1_1_titulo.png)
-![issue tab](img/paletacoloresfondomar.png)
+
+
 
 * Para el titulo de mi aplicación he usado una sombra para resaltar dicho titulo con una fuente Bromello y coloreando el titulo basandome también en la paleta de colores.
 
