@@ -29,6 +29,8 @@
 
 ![issue tab](img/2_1_Explicarcolores.png)
 
+
+## 3.Main
 * Hacemos click en login e interactuamos con los iconos de la activity "Main".
 
 ![issue tab](img/2_dentrodeloginlopciones.gif)
@@ -37,5 +39,16 @@
 * Nos desplegará un menú en el cual podremos interactuar.
 
 ![issue tab](img/2_1_dandoauser.gif)
+
+## 4.Registro
+* Al haber dado a "SignUp" como se ve en el Gif te redirecciona a mi activity "SignUp".
+* Como comenté antes modificando los "themes" he logrado utilizar todos los colores de la paleta y adaptarlos.
+* He puesto una flecha para volver a atrás.
+
+![issue tab](img/3_explicacioncolores.png)
+
+* Y aquí vemos como salir de la App
+
+![issue tab](img/3_saliendoapp.gif)
 
 
