@@ -5,58 +5,58 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SplashScreen">
-<!--fondo-->
+    <!--fondo-->
     <ImageView
         android:id="@+id/backView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-    </ImageView>
-<!--logo-->
+        app:layout_constraintStart_toStartOf="parent"></ImageView>
+    <!--logo-->
     <ImageView
         android:id="@+id/beach"
         android:layout_width="150dp"
         android:layout_height="180dp"
-        tools:ignore="ContentDescription"
         android:src="@mipmap/ic_logo_round"
         app:layout_constraintBottom_toTopOf="@+id/guideline12"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline11" />
-
+        app:layout_constraintTop_toTopOf="@+id/guideline11"
+        tools:ignore="ContentDescription" />
+    <!--TITULO-->
     <TextView
         android:id="@+id/Titulo"
+        style="@style/tituloapp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/bromelloregular"
-        android:text="Delightful"
         android:gravity="center"
+        android:text="Delightful"
         android:textColor="@color/arenaClara"
-        android:textStyle="bold"
         android:textSize="60sp"
-        style="@style/tituloapp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline13"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline10" />
-
+    <!--DESARROLLADOR-->
     <TextView
         android:id="@+id/designer"
+        style="@style/tituloapp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat"
         android:gravity="center"
         android:text="By Asier Aranda"
-        android:textStyle="bold"
         android:textColor="@color/arenaClara"
         android:textSize="20sp"
-        style="@style/tituloapp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline14"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline13" />
 
+
+    <!--GUIDELINES-->
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline11"
         android:layout_width="wrap_content"

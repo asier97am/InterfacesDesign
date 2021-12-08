@@ -11,31 +11,42 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitStart"/>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/user"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/pass1"
-        app:layout_constraintEnd_toStartOf="@+id/guideline9"
-        app:layout_constraintStart_toStartOf="@+id/guideline8"
-        app:layout_constraintTop_toTopOf="@+id/guideline2"
-        app:boxBackgroundColor="@color/white"
-        app:startIconDrawable="@drawable/username_foreground">
-
-        <EditText
-            android:id="@+id/username1"
-            android:layout_width="match_parent"
+    <!--VIEW
+     View usado para dar un poco de oscuridad al fondo y
+     que se vean los cuadros de texto mejor
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.2"
+        android:background="@color/black">
+    </View>
+    -->
+    <!--IGUAL QUE EN EL LOGIN-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/user"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:hint="Username"
-            android:textColor="@color/oceano4"
-            android:maxLines="1"
-            tools:ignore="SpeakableTextPresentCheck" />
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/pass1"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/guideline2"
 
-    </com.google.android.material.textfield.TextInputLayout>
+            app:boxBackgroundColor="@color/white"
+            app:startIconDrawable="@drawable/username_foreground">
 
-    <!--PASSWORD-->
+            <EditText
+                android:id="@+id/username1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:textColor="@color/oceano4"
+                android:maxLines="1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--PASSWORD-->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/pass1"
         android:layout_width="0dp"
@@ -45,6 +56,7 @@
         app:layout_constraintStart_toStartOf="@+id/guideline8"
         app:layout_constraintTop_toBottomOf="@+id/user"
         app:passwordToggleEnabled="true"
+
         app:boxBackgroundColor="@color/white"
         app:startIconDrawable="@drawable/password_foreground">
 

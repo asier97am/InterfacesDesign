@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!--<style name="myButtonInverse" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="strokeColor">@color/teal_200</item>
+        <item name="android:textColor">@color/teal_200</item>
+        <item name="android:backgroundTint">@color/white</item>
+    </style>-->
     <style name="myButtonRegistro">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
@@ -14,8 +22,6 @@
         <item name="android:layout_marginTop">5dp</item>
         <item name="android:backgroundTint">@color/oceano2</item>
         <item name="android:textColor">@color/white</item>
-        <item name="android:state_pressed">true</item>
-        <item name="background">@color/button_custom</item>
     </style>
 
 

@@ -7,8 +7,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- AQUI PARA PODER PONER EL REFRESH -->
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-
         android:id="@+id/myswipe"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -17,6 +17,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <!--AQUI TENDREMOS LO DE LAS CARAS -->
+        <WebView
+            android:id="@+id/vistaweb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
         <!--    <TextView-->
         <!--        android:id="@+id/textTap"-->
@@ -44,10 +49,7 @@
 <!--        </TextView>-->
 
 
-        <WebView
-            android:id="@+id/vistaweb"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
 

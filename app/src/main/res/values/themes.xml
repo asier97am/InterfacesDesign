@@ -1,5 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<!--    sin BARRA-->
     <style name="Theme.DiseñoInterfaces" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <!-- Color del hint de los textVieww. -->
@@ -13,26 +14,27 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">@color/oceano2</item>
 
-        <!-- Customize your theme here. -->
     </style>
+
+<!--    SIN TEMA se quedaria por defecto-->
     <style name="NoActionTheme" parent="Theme.AppCompat.DayNight">
-
     </style>
 
+<!--    TEMA PARA EL MAIN Y EL REGISTRO-->
     <style name="ActionTheme" parent="Theme.MaterialComponents.DayNight">
-
+<!--        status bar-->
         <item name="android:statusBarColor">@color/oceano2</item>
 
         <!-- Color de dentro de los textVieww (letra que escribimos) y el titulo de la app. -->
         <item name="android:textColorPrimary">@color/oceano1</item>
         <!-- Color del hint de los textVieww. -->
         <item name="colorPrimary">@color/oceano2</item>
-
+<!--        un stilo creado abajo-->
+<!--        ACTIONBAR STYLE-->
         <item name="actionBarStyle">@style/MyActionBar</item>
-
-
-
     </style>
+
+<!--    creamos este estilo para cambiar el appBAR sea de diferente color que el STATUS BAR-->
     <style name="MyActionBar" parent="Widget.MaterialComponents.Light.ActionBar.Solid" >
         <item name="background">@color/oceano3</item>
 
