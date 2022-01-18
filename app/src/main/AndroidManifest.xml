@@ -32,7 +32,14 @@
             android:name=".SignUp"
             android:exported="true"
             android:parentActivityName=".LoginActivity"
-            android:theme="@style/ActionTheme"></activity>
+            android:theme="@style/ActionTheme">
+        </activity>
+        <activity
+            android:name=".MainBAP"
+            android:exported="true"
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/ActionTheme">
+        </activity>
     </application>
 
 </manifest>
