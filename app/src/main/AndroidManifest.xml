@@ -12,9 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DiseñoInterfaces">
         <activity
-            android:name=".BottomAppBar"
-            android:exported="true" />
-        <activity
             android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>

@@ -25,7 +25,7 @@ public class SignUp extends AppCompatActivity {
                 .into(mBeach);
     }
     public void openBottomBar(View v){
-        Intent intent=new Intent(SignUp.this, BottomAppBarr.class);
+        Intent intent=new Intent(SignUp.this, MainBAP.class);
         startActivity(intent);
     }
 

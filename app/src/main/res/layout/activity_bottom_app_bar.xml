@@ -1,17 +1,9 @@
-<<<<<<< HEAD
-=======
-<?xml version="1.0" encoding="utf-8"?>
->>>>>>> origin/ButtomAppBar
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-<<<<<<< HEAD
-    android:layout_height="match_parent">
-=======
     android:layout_height="match_parent"
-    tools:context=".BottomAppBar">
->>>>>>> origin/ButtomAppBar
+    android:clipToPadding="false">
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:id="@+id/coordinator"
@@ -24,31 +16,18 @@
         <com.google.android.material.bottomappbar.BottomAppBar
             android:id="@+id/bottom_app_bar"
             android:layout_width="match_parent"
-<<<<<<< HEAD
             android:layout_height="?attr/actionBarSize"
             android:layout_gravity="bottom"
             app:fabAlignmentMode="center"
             app:menu="@menu/bottom_app_bar_menu"
             app:navigationIcon="@drawable/ic_burguer"
-            app:fabCradleVerticalOffset="11dp"
 
             />
         <!--            style="@style/Widget.MaterialComponents.BottomAppBar.PrimarySurface"-->
-=======
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            app:fabAlignmentMode="center"
-            app:menu="@menu/bottom_app_bar_menu"
-            app:navigationIcon="@drawable/ic_burguer_foreground"
-
-            />
-        <!--style="@style/Widget.MaterialComponents.BottomAppBar.PrimarySurface"-->
->>>>>>> origin/ButtomAppBar
 
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab"
-<<<<<<< HEAD
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/fucsia"
@@ -60,20 +39,4 @@
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-=======
-            app:tint="@android:color/white"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_add_foreground"
-            app:fabSize="normal"
-            android:backgroundTint="@color/fucsia"
-            app:layout_anchor="@+id/bottom_app_bar"
-            />
-
-
-    </androidx.coordinatorlayout.widget.CoordinatorLayout>
-
-
-
->>>>>>> origin/ButtomAppBar
 </androidx.constraintlayout.widget.ConstraintLayout>
