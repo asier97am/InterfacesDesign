@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.asier.aranda.diseointerfaces","c":"TryJavaDoc","l":"TryJavaDoc()","url":"%3Cinit%3E()"}]
