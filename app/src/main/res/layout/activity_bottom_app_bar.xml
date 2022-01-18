@@ -20,7 +20,7 @@
             app:fabAlignmentMode="center"
             app:menu="@menu/bottom_app_bar_menu"
             app:navigationIcon="@drawable/ic_burguer"
-            app:fabCradleVerticalOffset="10dp"
+            app:fabCradleVerticalOffset="11dp"
 
             />
         <!--            style="@style/Widget.MaterialComponents.BottomAppBar.PrimarySurface"-->
