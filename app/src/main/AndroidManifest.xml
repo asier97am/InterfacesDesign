@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DiseñoInterfaces">
         <activity
-            android:name=".BottomAppBarr"
+            android:name=".BottomAppBar"
             android:exported="true" />
         <activity
             android:name=".SplashScreen"
