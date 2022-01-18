@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.asier.aranda.diseointerfaces">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_logo"
@@ -11,33 +12,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DiseñoInterfaces">
         <activity
+            android:name=".BottomAppBarr"
+            android:exported="true" />
+        <activity
             android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/ActionTheme">
-        </activity>
+            android:theme="@style/ActionTheme"></activity>
         <activity
             android:name=".LoginActivity"
-            android:exported="true">
-        </activity>
-
-<!--        PARENT ACTIVITY NAME ".activity" SIGNIFICA VOLVER PARA ATRAS-->
-<!--        android:parentActivityName=".LoginActivity"-->
+            android:exported="true"></activity> <!-- PARENT ACTIVITY NAME ".activity" SIGNIFICA VOLVER PARA ATRAS -->
+        <!-- android:parentActivityName=".LoginActivity" -->
         <activity
             android:name=".SignUp"
-            android:parentActivityName=".LoginActivity"
             android:exported="true"
-            android:theme="@style/ActionTheme">
-        </activity>
-
-
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/ActionTheme"></activity>
     </application>
 
 </manifest>

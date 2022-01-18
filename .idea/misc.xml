@@ -3,23 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/drawable-anydpi/ic_burguer.xml" value="0.3828125" />
         <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/drawable-v24/gradient.xml" value="0.3828125" />
         <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/drawable-v24/icon_bolt.xml" value="0.22135416666666666" />
         <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/drawable-v24/phone_foreground.xml" value="0.2564814814814815" />
+        <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/drawable-v24/username_foreground.xml" value="0.23425925925925925" />
         <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/drawable/ic_account_manage.xml" value="0.2564814814814815" />
         <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/drawable/ic_baseline_wb_sunny_24.xml" value="0.35185185185185186" />
         <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/drawable/ic_beach_logo_background.xml" value="0.21296296296296297" />
+        <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/drawable/ic_burguer_foreground.xml" value="0.3828125" />
+        <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/drawable/ic_heart_foreground.xml" value="0.3828125" />
         <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/drawable/ic_login.xml" value="0.3769230769230769" />
         <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/drawable/ic_logo_foreground.xml" value="0.28703703703703703" />
         <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/drawable/ic_logoprincipal.xml" value="0.3287037037037037" />
         <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/drawable/ic_menu_lupa_foreground.xml" value="0.3769230769230769" />
         <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/drawable/ic_menu_rueda_foreground.xml" value="0.3769230769230769" />
         <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/font/fuente1.xml" value="0.1259259259259259" />
+        <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/layout/activity_bottom_app_bar.xml" value="0.36666666666666664" />
         <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/layout/activity_main.xml" value="0.20959595959595959" />
         <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/layout/activity_sign_up.xml" value="0.33" />
         <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/layout/activity_splash_screen.xml" value="0.33" />
         <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/layout/colors.xml" value="0.1" />
+        <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/layout/pruebas_anim.xml" value="0.36666666666666664" />
+        <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/menu/bottom_app_bar_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/menu/menu_context.xml" value="0.3619791666666667" />
         <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/menu/menu_main.xml" value="0.5" />
         <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/mipmap-anydpi-v26/ic_beach_logo.xml" value="0.22135416666666666" />
@@ -28,6 +35,11 @@
         <entry key="..\:/DAM 2 G.Superior Desarrollo aplicaciones multiplataforma/ANDROID STUDIO/DiseoInterfaces/app/src/main/res/mipmap-anydpi-v26/ic_logo_round.xml" value="0.262037037037037" />
       </map>
     </option>
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/Doc" />
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="true" />
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />

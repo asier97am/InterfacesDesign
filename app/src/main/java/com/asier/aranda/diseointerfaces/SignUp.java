@@ -1,6 +1,8 @@
 package com.asier.aranda.diseointerfaces;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,4 +24,9 @@ public class SignUp extends AppCompatActivity {
                 .transition(DrawableTransitionOptions.withCrossFade(2000))
                 .into(mBeach);
     }
+    public void openBottomBar(View v){
+        Intent intent=new Intent(SignUp.this, BottomAppBarr.class);
+        startActivity(intent);
+    }
+
 }
