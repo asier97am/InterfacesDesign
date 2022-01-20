@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favourite"
+        android:contentDescription="none"
+        android:icon="@drawable/ic_favourite_foreground"
+        android:title="Favourite"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/add"
+        android:contentDescription="none"
+        android:icon="@drawable/ic_add_foreground"
+        android:title="add"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/browse"
+        android:contentDescription="none"
+        android:icon="@drawable/ic_search_foreground"
+        android:title="Browse"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/profile"
+        android:contentDescription="none"
+        android:icon="@drawable/ic_profile_foreground"
+        android:title="Profile"
+        app:showAsAction="always"></item>
+
+
+</menu>
