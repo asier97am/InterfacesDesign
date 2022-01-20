@@ -27,6 +27,8 @@ public class MainBN extends AppCompatActivity {
 
     private ActivityMainBnBinding binding;
 
+    private MenuItem prevMenuItem;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -72,5 +74,32 @@ public class MainBN extends AppCompatActivity {
                 return false;
             }
         });
+
+        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+            }
+
+            @Override
+            public void onPageSelected(int position) {
+                if (prevMenuItem != null)
+                    prevMenuItem.setChecked(false);
+
+                else
+                    mybottomNavView.getMenu().getItem(0).setChecked(false);
+
+                mybottomNavView.getMenu().getItem(position).setChecked(true);
+               // removeBadge(mybottomNavView,mybottomNavView.getMenu().getItem(position).getItemId());
+                prevMenuItem = mybottomNavView.getMenu().getItem(position);
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
+
+            }
+        });
+
+
     }
 }
