@@ -23,10 +23,15 @@
         android:id="@+id/aboutus"
         android:orderInCategory="100"
         android:title="About Us"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Bottom_navigation"
+        android:orderInCategory="100"
+        android:title="Bottom Navigation Bar"
+        app:showAsAction="never" />
     <item
         android:id="@+id/signout"
         android:orderInCategory="100"
         android:title="SignOut"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="never" />
 </menu>

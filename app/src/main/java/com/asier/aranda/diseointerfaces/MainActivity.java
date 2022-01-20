@@ -151,6 +151,11 @@ public class MainActivity extends AppCompatActivity {
             //AQUI REFERENCIAREMOS NUESTRO ALERT DIALOG,es decir, se mostrará al pulsar USER
             showAlertDialogButtonClicked(MainActivity.this);
         }
+        if (id == R.id.Bottom_navigation) {
+            Intent intent = new Intent(MainActivity.this,MainBN.class);
+            startActivity(intent);
+        }
+
         return super.onOptionsItemSelected(item);
     }
 

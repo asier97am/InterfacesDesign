@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.asier.aranda.diseointerfaces">
+    package="com.asier.aranda.diseointerfaces" >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,10 +10,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_logo_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DiseñoInterfaces">
+        android:theme="@style/Theme.DiseñoInterfaces" >
+        <activity
+            android:name=".MainBN"
+            android:exported="true"
+            android:label="@string/title_activity_main_bn"
+            android:theme="@style/Theme.DiseñoInterfaces.NoActionBar" />
         <activity
             android:name=".SplashScreen"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,23 +28,21 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/ActionTheme"></activity>
+            android:theme="@style/ActionTheme" />
         <activity
             android:name=".LoginActivity"
-            android:exported="true"></activity> <!-- PARENT ACTIVITY NAME ".activity" SIGNIFICA VOLVER PARA ATRAS -->
+            android:exported="true" /> <!-- PARENT ACTIVITY NAME ".activity" SIGNIFICA VOLVER PARA ATRAS -->
         <!-- android:parentActivityName=".LoginActivity" -->
         <activity
             android:name=".SignUp"
             android:exported="true"
             android:parentActivityName=".LoginActivity"
-            android:theme="@style/ActionTheme">
-        </activity>
+            android:theme="@style/ActionTheme" />
         <activity
             android:name=".MainBAP"
             android:exported="true"
             android:parentActivityName=".LoginActivity"
-            android:theme="@style/ActionTheme">
-        </activity>
+            android:theme="@style/ActionTheme" />
     </application>
 
 </manifest>
