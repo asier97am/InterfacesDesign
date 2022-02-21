@@ -39,6 +39,8 @@ public class LoginActivity extends AppCompatActivity {
                 .into(mBeach);
 
     }
+
+
     //ONCLICK DEL BUTTON "LOGIN" que me va a llevar al MAINACTIVITY
     //además le meto unas FLAGS para no poder volver al activity LOGINACTIVITY
     public void openMainActivity(View v){

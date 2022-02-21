@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">Delightful</string>
-    <string name="title_activity_main_bn">MainBN</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
-    <string name="tab_text_3">Tab 3</string>
-    <string name="tab_text_4">Tab 4</string>
+    <string name="app_name" translatable="false">Delightful</string>
+    <string name="title_activity_main_bn" translatable="false">MainBN</string>
+    <string name="tab_text_1" translatable="false">Tab 1</string>
+    <string name="tab_text_2" translatable="false">Tab 2</string>
+    <string name="tab_text_3" translatable="false">Tab 3</string>
+    <string name="tab_text_4" translatable="false">Tab 4</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Hola Fragmento Blanco</string>
 </resources>
